@@ -102,16 +102,27 @@ ul li {
 }
 
 .button-player {
-    display: inline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 8.5rem;
+    bottom: 5.5rem;
+}
+
+.button-player button {
     background-color: #17ca9a;
     color: #ffffff;
     border: 0;
     border-radius: 100%;
     outline: none;
     cursor: pointer;
+    position: relative;
+}
+
+.eff-1, .eff-2 {
     position: absolute;
-    left: 5.5rem;
-    bottom: 3.5rem;
+    border-radius: 100%;
 }
 
 @media only screen and (min-width: 320px) {}
