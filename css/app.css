@@ -37,7 +37,7 @@ ul li {
 .idea {
     width: 100%;
     padding: 6rem 8rem;
-    border-radius: 0.6rem;
+    border-radius: 1rem;
     background-color: white;
     position: absolute;
     top: -260px;
@@ -45,7 +45,8 @@ ul li {
     color: #ffffff;
     background-image: url('../img/Group-1022.jpg');
     background-repeat: repeat-y;
-    height: 80%;
+    height: 645px;
+    overflow: hidden;
 }
 
 .idea .road {
@@ -89,6 +90,28 @@ ul li {
 
 .idea-text h5 {
     font-weight: 400;
+}
+
+.player {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: transparent;
+}
+
+.button-player {
+    display: inline;
+    background-color: #17ca9a;
+    color: #ffffff;
+    border: 0;
+    border-radius: 100%;
+    outline: none;
+    cursor: pointer;
+    position: absolute;
+    left: 5.5rem;
+    bottom: 3.5rem;
 }
 
 @media only screen and (min-width: 320px) {}
