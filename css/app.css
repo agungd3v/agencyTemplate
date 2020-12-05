@@ -1,5 +1,7 @@
 @import './lib/color.css';
 @import './lib/marpad.css';
+@import './lib/text.css';
+@import './lib/display.css';
 
 *, *::before, *::after {
     margin: 0;
@@ -37,31 +39,6 @@ ul li {
 
 .bg-transparent {
     background-color: transparent;
-}
-
-.flex {
-    display: flex;
-}
-
-.justify-center {
-    justify-content: center;
-}
-
-.justify-around {
-    justify-content: space-around;
-}
-
-.items-center {
-    align-items: center;
-}
-
-.items-end {
-    align-items: flex-end;
-}
-
-.text-sm {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
 }
 
 .container {
