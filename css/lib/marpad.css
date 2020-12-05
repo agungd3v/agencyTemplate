@@ -26,6 +26,25 @@
   margin-top: 5rem;
 }
 
+.pr-1 {
+  padding-right: 1rem;
+}
+.pr-2 {
+  padding-right: 2rem;
+}
+
+.pr-3 {
+  padding-right: 3rem;
+}
+
+.pr-4 {
+  padding-right: 4rem;
+}
+
+.pr-5 {
+  padding-right: 5rem;
+}
+
 .my-2 {
   margin-top: 1.125rem;
   margin-bottom: 0.725rem;

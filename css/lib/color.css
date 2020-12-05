@@ -1,3 +1,7 @@
+.color-white {
+  color: #ffffff;
+}
+
 .color-gray {
   color: #7a7a7a;
 }
@@ -20,4 +24,32 @@
 
 .color-semi-dark {
   color: #3f3f3f;
+}
+
+.bg-white {
+  background-color: #ffffff;
+}
+
+.bg-gray {
+  background-color: #7a7a7a;
+}
+
+.bg-orange {
+  background-color: #ff845b;
+}
+
+.bg-green {
+  background-color: #17ca9a;
+}
+
+.bg-blue {
+  background-color: #6173f1;
+}
+
+.bg-dark {
+  background-color: #333333;
+}
+
+.bg-semi-dark {
+  background-color: #3f3f3f;
 }

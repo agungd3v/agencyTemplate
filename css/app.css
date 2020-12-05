@@ -2,6 +2,7 @@
 @import './lib/marpad.css';
 @import './lib/text.css';
 @import './lib/display.css';
+@import './lib/form.css';
 
 *, *::before, *::after {
     margin: 0;
@@ -150,6 +151,15 @@ ul li {
     position: absolute;
     border-radius: 100%;
     transition: all 0.3s ease-in-out;
+}
+
+.see-team {
+    border-radius: 0.725rem;
+    text-decoration: none;
+}
+
+.see-team:hover {
+    background-color: #fd6430;
 }
 
 @media only screen and (min-width: 320px) {}
