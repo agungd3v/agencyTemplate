@@ -1,0 +1,34 @@
+.mt-1 {
+  margin-top: 1rem;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+.mt-3 {
+  margin-top: 3rem;
+}
+
+.mt-4 {
+  margin-top: 4rem;
+}
+
+.mt-5 {
+  margin-top: 5rem;
+}
+
+.my-2 {
+  margin-top: 1.125rem;
+  margin-bottom: 0.725rem;
+}
+
+.mx-1 {
+  margin-left: 0.525rem;
+  margin-right: 0.525rem;
+}
+
+.px-1 {
+  padding-left: 0.525rem;
+  padding-right: 0.525rem;
+}

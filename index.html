@@ -3,18 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Digital Agency</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js" integrity="sha512-F5QTlBqZlvuBEs9LQPqc1iZv2UMxcVXezbHzomzS6Df4MZMClge/8+gXrKw2fl5ysdk4rWjR0vKS7NNkfymaBQ==" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/app.css">
     <script src="./js/parallaxEffect.js"></script>
+    <script src="./js/effect.js" defer></script>
 </head>
 <body>
-    <div class="section welcome"></div>
-    <div class="section">
+    <div class="section welcome">
         <div class="container">
+            <div class="welcome-msg">
+                <h1>Digital Agency</h1>
+                <p>make your ideas come true on <span>mobile device</span></p>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="container flex items-end">
             <div class="idea">
                 <img src="./img/Polygon-1-copy-61.png" alt="road" class="road">
                 <div class="idea-text-wrapper">
@@ -43,13 +51,46 @@
                 </div>
                 <div class="player">
                     <div class="button-player">
-                        <div class="eff-1" style="width: 180%; height: 180%; background-color: black;"></div>
-                        <div class="eff-2" style="width: 135%; height: 135%; background-color: white;"></div>
+                        <div class="eff" style="background-color: rgba(23, 202, 154, 1)"></div>
+                        <div class="eff" style="background-color: rgba(23, 202, 154, 1)"></div>
+                        <div class="eff" style="background-color: rgba(23, 202, 154, 1)"></div>
+                        <div class="eff" style="background-color: rgba(23, 202, 154, 1)"></div>
                         <button type="button"><i class="fas fa-4x fa-play-circle"></i></button>
                     </div>
                 </div>
             </div>
+            <ul class="flex">
+                <li class="px-1 mx-1">
+                    <ul class="text-center">
+                        <li><i class="fas fa-3x fa-laptop color-orange"></i></li>
+                        <li><h4 class="my-2 color-dark">Wep App & Mobile App</h4></li>
+                        <li><p class="text-sm color-gray">This is the best way to shortly describe services provided for clients</p></li>
+                    </ul>
+                </li>
+                <li class="px-1 mx-1">
+                    <ul class="text-center">
+                        <li><i class="fab fa-3x fa-instagram color-blue"></i></li>
+                        <li><h4 class="my-2 color-dark">Social Media</h4></li>
+                        <li><p class="text-sm color-gray">This is the best way to shortly describe services provided for clients</p></li>
+                    </ul>
+                </li>
+                <li class="px-1 mx-1">
+                    <ul class="text-center">
+                        <li><i class="fas fa-3x fa-bullhorn color-orange"></i></li>
+                        <li><h4 class="my-2 color-dark">Marketing</h4></li>
+                        <li><p class="text-sm color-gray">This is the best way to shortly describe services provided for clients</p></li>
+                    </ul>
+                </li>
+                <li class="px-1 mx-1">
+                    <ul class="text-center">
+                        <li><i class="fas fa-3x fa-paint-roller color-green"></i></li>
+                        <li><h4 class="my-2 color-dark">Branding</h4></li>
+                        <li><p class="text-sm color-gray">This is the best way to shortly describe services provided for clients</p></li>
+                    </ul>
+                </li>
+            </ul>
         </div>
     </div>
+    <div class="section"></div>
 </body>
 </html>

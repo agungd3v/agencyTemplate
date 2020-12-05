@@ -1,3 +1,6 @@
+@import './lib/color.css';
+@import './lib/marpad.css';
+
 *, *::before, *::after {
     margin: 0;
     padding: 0;
@@ -16,10 +19,66 @@ ul li {
     list-style: none;
 }
 
+.text-center {
+    text-align: center;
+}
+
+.relative {
+    position: relative;
+}
+
+.bottom-0 {
+    bottom: 0;
+}
+
+.bottom-min-50 {
+    bottom: -50px;
+}
+
+.bg-transparent {
+    background-color: transparent;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.items-end {
+    align-items: flex-end;
+}
+
+.text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
 .container {
     margin: 0 6rem;
     min-height: 100vh;
     position: relative;
+}
+
+.welcome-msg {
+    position: relative;
+    top: 160px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.welcome-msg h1 {
+    font-size: 4rem;
 }
 
 .section {
@@ -35,13 +94,14 @@ ul li {
 }
 
 .idea {
-    width: 100%;
-    padding: 6rem 8rem;
+    width: 1157px;
+    padding: 6rem 7rem;
     border-radius: 1rem;
     background-color: white;
     position: absolute;
     top: -260px;
-    left: 0;
+    left: 50%;
+    transform: translateX(-50%);
     color: #ffffff;
     background-image: url('../img/Group-1022.jpg');
     background-repeat: repeat-y;
@@ -69,18 +129,6 @@ ul li {
 .idea-info:last-child {
     display: flex;
     align-items: flex-end;
-}
-
-.relative {
-    position: relative;
-}
-
-.bottom-0 {
-    bottom: 0;
-}
-
-.bottom-min-50 {
-    bottom: -50px;
 }
 
 .idea-text h1 {
@@ -118,11 +166,13 @@ ul li {
     outline: none;
     cursor: pointer;
     position: relative;
+    box-shadow: 0 .125rem .25rem #17ca9a;
 }
 
-.eff-1, .eff-2 {
+.eff {
     position: absolute;
     border-radius: 100%;
+    transition: all 0.3s ease-in-out;
 }
 
 @media only screen and (min-width: 320px) {}
