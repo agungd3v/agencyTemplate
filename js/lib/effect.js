@@ -19,6 +19,39 @@ const buttonPlayMaker = () => {
   })
 }
 
+class TypeWritter {
+  constructor(element, words, waitSec = 3000) {
+    this.element = element
+    this.words = words
+    this.txt = ''
+    this.wordIndex = 0
+    this.wait = parseInt(waitSec, 10)
+    this.type()
+    this.isDeleting = false
+  }
+  type() {
+    const currentIndex = this.wordIndex % this.words.length
+    const fullTxt = this.words[currentIndex]
+    if (this.isDeleting) {
+      this.txt = fullTxt.substring(0, this.txt.length - 1)
+    } else {
+      this.txt = fullTxt.substring(0, this.txt.length + 1)
+    }
+    this.element.innerHTML = this.txt
+    let typeSpeed = 50
+    if (!this.isDeleting && this.txt === fullTxt) {
+      typeSpeed = this.wait
+      this.isDeleting = true
+    }
+    if (this.isDeleting && this.txt === '') {
+      this.isDeleting = false
+      this.wordIndex++
+      typeSpeed = 50
+    }
+    setTimeout(() => this.type(), typeSpeed)
+  }
+}
+
 buttonPlayMaker()
 
-export { buttonPlayMaker }
+export { buttonPlayMaker, TypeWritter }
